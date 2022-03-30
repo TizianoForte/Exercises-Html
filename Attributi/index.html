@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio Attributi </title>
+</head>
+
+<body>
+
+    <h2>Esercizio Range con step di 2</h2>
+    <div>
+        <form action="index.html" method="post">
+            <label for="range">Range da 0 a 100 :</label>
+            <input type="number" id="range" name="=range" min="0" max="100" step="2" autofocus />
+            <!--Ho inerito all'interno del form il pulsante disabilitato-->
+            <button type="button" disabled> Invia </button>
+    </div>
+    <hr>
+    <div>
+        <h2>Esercizio checkbox</h2>
+        <form action="index.html" method="post">
+            <label for="checkbox">Scegli il tuo Eroe : </label><br>
+            <input type="checkbox" id="eroe1" name="eroe1" value="SM" />
+            <label for="eroe1">Super Mario</label><br>
+            <input type="checkbox" id="eroe2" name="eroe2" value="BT" />
+            <label for="eroe2">Batman</label><br>
+            <input type="checkbox" id="eroe3" name="eroe3" value="SM" />
+            <label for="eroe3">Superman</label><br><br>
+            <div>
+                <button type="button">Invia</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div>
+        <h2>Esercizio Data Custom</h2>
+        <form action="index.html" method="get">
+            <label for="Compleanno">Inserisci la data del tuo Compleanno</label>
+            <input type="date" id="Compleanno" min="1940-01-01" max="3000-01-01" />
+            <button type="button" onclick="alert('Ci ricorderemo di farti gli auguri')">Invia</button>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
